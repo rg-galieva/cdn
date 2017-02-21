@@ -1,0 +1,1 @@
+Static server used as CDN
