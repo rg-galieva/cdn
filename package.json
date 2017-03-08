@@ -1,0 +1,16 @@
+{
+  "name": "rg-cdn",
+  "version": "1.0.0",
+  "description": "Static server used as CDN",
+  "main": "index.js",
+  "repository": "https://github.com/rg-galieva/rg-cdn.git",
+  "author": "Regina Galieva <rg.galieva@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack-dev-server --env=dev --hot --inline",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
