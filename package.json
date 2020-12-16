@@ -7,7 +7,6 @@
   "author": "Regina Galieva <rg.galieva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack-dev-server --env=dev --hot --inline",
     "deploy": "firebase deploy"
   }
 }
