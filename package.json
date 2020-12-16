@@ -9,8 +9,5 @@
   "scripts": {
     "build": "webpack-dev-server --env=dev --hot --inline",
     "deploy": "firebase deploy"
-  },
-  "devDependencies": {
-    "webpack": "^2.2.1"
   }
 }
